@@ -1,0 +1,495 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "First era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Agriculture",
+				"row": 2,
+				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+				"uniques": ["Granary (Building)", "+1 Food on Farms"]
+			},
+		]
+	},
+	{
+		"columnNumber": 1,
+		"era": "First era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Sailing",
+				"row": 1,
+				"quote": "'He who commands the sea has command of everything.' - Themistocles",
+				"uniques": ["Fishing Quay (Building)", "Galley (Unit)", "Embarkation (Allows all standard Land Units to traverse Coast Terrain)", "+1 Food on Fishing Boats"]
+			},
+			{
+				"name": "Pottery",
+				"row": 2,
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9",
+				"uniques": ["Brickyard (Building)", "+1 Food on Plantations", "+1 Production on Clay Pits"]
+			},
+			{
+				"name": "Animal Husbandry",
+				"row": 3,
+				"quote": "'Thou shalt not muzzle the ox when he treadeth out the corn.' - Bible Deuteronomy 25:4",
+				"uniques": ["Saw Pit (Building)", "Slinger (Unit)", "+1 Production on Camps and Woodcutters", "+1 Food on Pastures"]
+			}
+		]
+	},
+	{
+		"columnNumber": 2,
+		"era": "First era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Writing",
+				"row": 1,
+				"prerequisites": ["Sailing", "Pottery"],
+				"quote": "'He who destroys a good book kills reason itself.' - John Milton",
+				"uniques": ["Library (Building)", "Great Stele (Wonder)", "Research Initiative (Project)"]
+			},
+			{
+				"name": "Irrigation",
+				"row": 3,
+				"prerequisites": ["Pottery", "Animal Husbandry"],
+				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12",
+				"uniques": ["Garden (Building)", "+1 Settlement Limit", "Hanging Gardens (Wonder)"]
+			},
+			{
+				"name": "Masonry",
+				"row": 4,
+				"prerequisites": ["Animal Husbandry"],
+				"quote": "'How happy are those whose walls already rise!' - Virgil",
+				"uniques": ["Ancient Walls (Building)", "Monument (Building)", "Pyramids (Wonder)", "+1 Production on Mines and Quarries"]
+			}
+		]
+	},
+	{
+		"columnNumber": 3,
+		"era": "First era",
+		"techCost": 55,
+		"buildingCost": 75,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Currency",
+				"row": 1,
+				"prerequisites": ["Sailing", "Writing"],
+				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope",
+				"uniques": ["Bath (Building)", "Market (Building)", "+1 Specialist Limit in all Cities"]
+			},
+			{
+				"name": "Bronze Working",
+				"row": 3,
+				"prerequisites": ["Writing", "Irrigation"],
+				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer",
+				"uniques": ["Barracks (Building)", "Spearman (Unit)", "Archer (Unit)", "Tier 2 Civilization-Specific Unit"]
+			},
+			{
+				"name": "The Wheel",
+				"row": 4,
+				"prerequisites": ["Irrigation", "Masonry"],
+				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb",
+				"uniques": ["Villa (Building)", "Ballista (Unit)", "Chariot (Unit)", "Military Infiltration (Espionage)"]
+			}
+		]
+	},
+	{
+		"columnNumber": 4,
+		"era": "First era",
+		"techCost": 105,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Navigation",
+				"row": 1,
+				"prerequisites": ["Currency"],
+				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon",
+				"uniques": ["Lighthouse (Building)", "Ha'amonga 'a Maui (Wonder)", "Quadrireme (Unit)"]
+			},
+			{
+				"name": "Engineering",
+				"row": 3,
+				"prerequisites": ["Currency", "Bronze Working"],
+				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci",
+				"uniques": ["Amphitheater (Building)", "Blacksmith (Building)"]
+			},
+			{
+				"name": "Military Training",
+				"row": 4,
+				"prerequisites": ["Bronze Working", "The Wheel"],
+				"quote": "'Wars may be fought with weapons, but they are won by men. It is the spirit of the men who follow and of the man who leads that gains the victory.' - George S. Patton",
+				"uniques": ["Arena (Building)", "Unlocks Unit Flanking"]
+			}
+		]
+	},
+	{
+		"columnNumber": 5,
+		"era": "First era",
+		"techCost": 175,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Mathematics",
+				"row": 3,
+				"prerequisites": ["Engineering"],
+				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon",
+				"uniques": ["Academy (Building)", "Pyramid of the Sun (Wonder)"]
+			},
+			{
+				"name": "Iron Working",
+				"row": 4,
+				"prerequisites": ["Military Training"],
+				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats",
+				"uniques": ["Horseman (Unit)", "Phalanx (Unit)", "Tier 3 Civilization-Specific Unit"]
+			}
+		]
+	},
+	{
+		"columnNumber": 6,
+		"era": "First era",
+		"techCost": 235,
+		"buildingCost": 150,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Future Tech 1",
+				"row": 3,
+				"prerequisites": ["Mathematics", "Iron Working"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"uniques": ["+1 Wildcard Attribute Point", "A boost for starting Tech in the next Age", "+10 Age Progress"]
+			}
+		]
+	},
+	{
+		"columnNumber": 7,
+		"era": "Second era",
+		"techCost": 30,
+		"buildingCost": 50,
+		"wonderCost": 200,
+		"techs": [
+			{
+				"name": "Machinery",
+				"row": 1,
+				"quote": "'The machine does not isolate man from the great problems of nature but plunges him more deeply into them.' - Antoine de Saint-Exupéry",
+				"uniques": ["Gristmill (Building)", "Sawmill (Building)", "Catapult (Unit)"]
+			},
+			{
+				"name": "Astronomy",
+				"row": 2,
+				"quote": "'Astronomy compels the soul to look upwards and leads us from this world to another.' - Plato",
+				"uniques": ["Serpent Mound (Wonder)", "Observatory (Building)", "Fleet Commander (Unit)"]
+			},
+			{
+				"name": "Cartography",
+				"row": 3,
+				"quote": "'Cartography is the science of the gods.' - Anonymous",
+				"uniques": ["Wharf (Building)", "All Civilian and Support Units may enter deep Ocean Terrain"]
+			}
+		]
+	},
+	{
+		"columnNumber": 8,
+		"era": "Second era",
+		"techCost": 45,
+		"buildingCost": 70,
+		"wonderCost": 220,
+		"techs": [
+			{
+				"name": "Castles",
+				"row": 1,
+				"prerequisites": ["Machinery"],
+				"quote": "'A man's home is his castle.' - Sir Edward Coke",
+				"uniques": ["Dyngeon (Building)", "Medieval Walls (Building)", "Crossbowman (Unit)"]
+			},
+			{
+				"name": "Heraldry",
+				"row": 2,
+				"prerequisites": ["Machinery", "Astronomy"],
+				"quote": "'Heraldry is the shorthand of history.' - Anonymous",
+				"uniques": ["Knight (Unit)", "Man-At-Arms (Unit)", "Tier 2 Civilization-Specific Unit"]
+			},
+			{
+				"name": "Feudalism",
+				"row": 3,
+				"prerequisites": ["Astronomy", "Cartography"],
+				"quote": "'Feudalism, as it was, is a thing of the past.' - Anonymous",
+				"uniques": ["Inn (Building)", "+1 Settlement Limit"]
+			}
+		]
+	},
+	{
+		"columnNumber": 9,
+		"era": "Second era",
+		"techCost": 65,
+		"buildingCost": 90,
+		"wonderCost": 240,
+		"techs": [
+			{
+				"name": "Shipbuilding",
+				"row": 1,
+				"prerequisites": ["Heraldry", "Feudalism"],
+				"quote": "'Shipbuilding is the cradle of civilization.' - Anonymous",
+				"uniques": ["Shipyard (Building)", "Carrack (Unit)", "All Naval Units can safely travel across deep Ocean Terrain without taking damage", "All units ignore movement penalties from deep Ocean Terrain"]
+			},
+			{
+				"name": "Guilds",
+				"row": 2,
+				"prerequisites": ["Cartography"],
+				"quote": "'Guilds were the medieval equivalent of trade unions.' - Anonymous",
+				"uniques": ["Guildhall (Building)", "Kiln (Building)"]
+			},
+			{
+				"name": "Metallurgy",
+				"row": 3,
+				"prerequisites": ["Castles", "Heraldry"],
+				"quote": "'Metallurgy is the key to civilization.' - Anonymous",
+				"uniques": ["Armorer (Building)", "Trebuchet (Unit)"]
+			}
+		]
+	},
+	{
+		"columnNumber": 10,
+		"era": "Second era",
+		"techCost": 95,
+		"buildingCost": 110,
+		"wonderCost": 260,
+		"techs": [
+			{
+				"name": "Education",
+				"row": 2,
+				"prerequisites": ["Feudalism", "Guilds"],
+				"quote": "'Education is the most powerful weapon which you can use to change the world.' - Nelson Mandela",
+				"uniques": ["University (Building)", "Shwedagon Zedi Daw (Wonder)", "+1 Specialist Limit in all Cities"]
+			},
+			{
+				"name": "Metal Casting",
+				"row": 3,
+				"prerequisites": ["Metallurgy", "Shipbuilding"],
+				"quote": "'Metal casting is the backbone of modern industry.' - Anonymous",
+				"uniques": ["Lancer (Unit)", "Pikeman (Unit)", "Tier 3 Civilization-Specific Unit"]
+			},
+			{
+				"name": "Architecture",
+				"row": 1,
+				"prerequisites": ["Shipbuilding", "Education"],
+				"quote": "'Architecture is the learned game, correct and magnificent, of forms assembled in the light.' - Le Corbusier",
+				"uniques": ["Menagerie (Building)", "Pavilion (Building)"]
+			}
+		]
+	},
+	{
+		"columnNumber": 11,
+		"era": "Second era",
+		"techCost": 135,
+		"buildingCost": 130,
+		"wonderCost": 280,
+		"techs": [
+			{
+				"name": "Gunpowder",
+				"row": 2,
+				"prerequisites": ["Metal Casting"],
+				"quote": "'Gunpowder is the emblem of modernity.' - Anonymous",
+				"uniques": ["Arquebusier (Unit)", "Bombard (Unit)", "Galleon (Unit)"]
+			},
+			{
+				"name": "Urban Planning",
+				"row": 1,
+				"prerequisites": ["Architecture"],
+				"quote": "'Urban planning is the art of giving shape, design, and structure to cities and towns.' - Anonymous",
+				"uniques": ["Bank (Building)", "Hospital (Building)", "Machu Pichu (Wonder)", "+1 Specialist Limit in all Cities"]
+			}
+		]
+	},
+	{
+		"columnNumber": 12,
+		"era": "Second era",
+		"techCost": 195,
+		"buildingCost": 150,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Future Tech 2",
+				"row": 2,
+				"prerequisites": ["Gunpowder", "Urban Planning"],
+				"quote": "'The future belongs to those who believe in the beauty of their dreams.' - Eleanor Roosevelt",
+				"uniques": ["+1 Wildcard Attribute Point", "A boost for starting Technology in the next Age", "+10 Age Progress"]
+			}
+		]
+	},
+	{
+		"columnNumber": 13,
+		"era": "Third era",
+		"techCost": 40,
+		"buildingCost": 60,
+		"wonderCost": 220,
+		"techs": [
+			{
+				"name": "Academics",
+				"row": 1,
+				"quote": "'Education is the most powerful weapon which you can use to change the world.' - Nelson Mandela",
+				"uniques": ["Schoolhouse (Building)", "Oxford University (Wonder)"]
+			},
+			{
+				"name": "Steam Engine",
+				"row": 2,
+				"quote": "'The steam engine has done much more for science than science has done for the steam engine.' - William Thomson",
+				"uniques": ["Ironworks (Building)", "Port (Building)", "Merchant (Unit)", "Ironclad (Unit)"]
+			},
+			{
+				"name": "Military Science",
+				"row": 3,
+				"quote": "'The supreme art of war is to subdue the enemy without fighting.' - Sun Tzu",
+				"uniques": ["Defensive Fortifications (Building)", "Military Academy (Building)", "Red Fort (Wonder)"]
+			}
+		]
+	},
+	{
+		"columnNumber": 14,
+		"era": "Third era",
+		"techCost": 60,
+		"buildingCost": 80,
+		"wonderCost": 240,
+		"techs": [
+			{
+				"name": "Electricity",
+				"row": 1,
+				"prerequisites": ["Academics"],
+				"quote": "'Electricity is really just organized lightning.' - George Carlin",
+				"uniques": ["Laboratory (Building)", "Stock Exchange (Building)", "+1 Specialist Limit in all Cities"]
+			},
+			{
+				"name": "Urbanization",
+				"row": 2,
+				"prerequisites": ["Academics", "Steam Engine"],
+				"quote": "'Urbanization is not just modernizing the city; it is modernizing the people.' - Anonymous",
+				"uniques": ["Department Store (Building)", "Opera House (Building)", "+1 Settlement Limit"]
+			},
+			{
+				"name": "Combustion",
+				"row": 3,
+				"prerequisites": ["Steam Engine", "Military Science"],
+				"quote": "'The internal combustion engine is one of the most extraordinary things ever invented.' - Anonymous",
+				"uniques": ["Cruiser (Unit)", "Dreadnaught (Unit)", "Landship (Unit)"]
+			}
+		]
+	},
+	{
+		"columnNumber": 15,
+		"era": "Third era",
+		"techCost": 85,
+		"buildingCost": 100,
+		"wonderCost": 260,
+		"techs": [
+			{
+				"name": "Industrialization",
+				"row": 2,
+				"prerequisites": ["Military Science"],
+				"quote": "'Industrialization is the systemic change that transforms an agrarian society into an industrial one.' - Anonymous",
+				"uniques": ["Rail Station (Building)", "Field Gun (Unit)", "Howitzer (Unit)", "Rifle Infantry (Unit)", "Tier 2 Civilization-Specific Unit"]
+			},
+			{
+				"name": "Radio",
+				"row": 3,
+				"prerequisites": ["Electricity", "Urbanization"],
+				"quote": "'Radio is the theater of the mind.' - Anonymous",
+				"uniques": ["Radio Station (Building)", "Tenement (Building)", "Eiffel Tower (Wonder)"]
+			},
+			{
+				"name": "Flight",
+				"row": 1,
+				"prerequisites": ["Urbanization", "Combustion"],
+				"quote": "'The engine is the heart of an airplane, but the pilot is its soul.' - Walter Raleigh",
+				"uniques": ["Aerodrome (Building)", "Squadron Commander (Unit)", "Biplane (Unit)", "Trench Fighter (Unit)", "Bomber (Unit)", "Trans-Oceanic Flight (Project)"]
+			}
+		]
+	},
+	{
+		"columnNumber": 16,
+		"era": "Third era",
+		"techCost": 120,
+		"buildingCost": 120,
+		"wonderCost": 280,
+		"techs": [
+			{
+				"name": "Mass Production",
+				"row": 2,
+				"prerequisites": ["Combustion", "Industrialization"],
+				"quote": "'Mass production is the key to the modern world.' - Anonymous",
+				"uniques": ["Cannery (Building)", "Factory (Building)", "+1 Settlement Limit"]
+			},
+			{
+				"name": "Mobilization",
+				"row": 1,
+				"prerequisites": ["Radio", "Flight"],
+				"quote": "'Mobilization is the key to victory.' - Anonymous",
+				"uniques": ["Aircraft Carrier (Unit)", "Battleship (Unit)", "Destroyer (Unit)", "Submarine (Unit)"]
+			}
+		]
+	},
+	{
+		"columnNumber": 17,
+		"era": "Third era",
+		"techCost": 160,
+		"buildingCost": 140,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Armor",
+				"row": 1,
+				"prerequisites": ["Flight", "Mass Production"],
+				"quote": "'Armor is the key to modern warfare.' - Anonymous",
+				"uniques": ["AT Gun (Unit)", "Assault Gun (Unit)", "Infantry Company (Unit)", "Tank (Unit)", "Tier 3 Civilization-Specific Unit"]
+			},
+			{
+				"name": "Aerodynamics",
+				"row": 2,
+				"prerequisites": ["Mobilization", "Armor"],
+				"quote": "'Aerodynamics are for people who can't build engines.' - Enzo Ferrari",
+				"uniques": ["Fighter (Unit)", "Dive Bomber (Unit)", "Heavy Bomber (Unit)", "Break the Sound Barrier (Project)"]
+			}
+		]
+	},
+	{
+		"columnNumber": 18,
+		"era": "Third era",
+		"techCost": 220,
+		"buildingCost": 160,
+		"wonderCost": 320,
+		"techs": [
+			{
+				"name": "Rocketry",
+				"row": 1,
+				"prerequisites": ["Aerodynamics"],
+				"quote": "'Rocketry is the key to the future.' - Anonymous",
+				"uniques": ["Launch Pad (Building)", "Sabotage Space Program (Espionage)", "Launch Satellite (Project)", "Staffed Space Flight (Project)"]
+			}
+		]
+	},
+	{
+		"columnNumber": 19,
+		"era": "Third era",
+		"techCost": 300,
+		"buildingCost": 180,
+		"wonderCost": 340,
+		"wonderCost": 340,
+		"techs": [
+			{
+				"name": "Future Tech 3",
+				"row": 1,
+				"prerequisites": ["Rocketry"],
+				"quote": "'The future belongs to those who believe in the beauty of their dreams.' - Eleanor Roosevelt",
+				"uniques": ["+1 Wildcard Attribute Point", "+10 Age Progress"]
+			}
+		]
+	}
+]

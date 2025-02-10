@@ -1,0 +1,26 @@
+[
+	/* Ancient Era */
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Warrior",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+//		"obsoleteTech": "Metal Casting",
+//		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "This is your basic, club-swinging fighter."}
+		]
+	}
+]
